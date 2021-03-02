@@ -9,7 +9,7 @@ import Foundation
 
 public struct Meal: Codable {
     public let idMeal, strMeal: String
-    public let strDrinkAlternate: JSONNull?
+    let strDrinkAlternate: JSONNull?
     public let strCategory, strArea, strInstructions: String
     public let strMealThumb: String
     public let strTags: String?
