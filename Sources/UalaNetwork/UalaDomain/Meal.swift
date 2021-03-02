@@ -25,7 +25,7 @@ public struct Meal: Codable {
     public let strMeasure11, strMeasure12, strMeasure13, strMeasure14: String
     public let strMeasure15, strMeasure16, strMeasure17, strMeasure18: String
     public let strMeasure19, strMeasure20, strSource: String
-    public let dateModified: JSONNull?
+    let dateModified: JSONNull?
 }
 
 
