@@ -8,12 +8,12 @@
 import Foundation
 
 public struct Meal: Codable {
-    let idMeal, strMeal: String
+    public let idMeal, strMeal: String
     let strDrinkAlternate: JSONNull?
-    let strCategory, strArea, strInstructions: String
+    public let strCategory, strArea, strInstructions: String
     let strMealThumb: String
     let strTags: String?
-    let strYoutube: String
+    public let strYoutube: String
     let strIngredient1, strIngredient2, strIngredient3, strIngredient4: String
     let strIngredient5, strIngredient6: String
     let strIngredient7, strIngredient8, strIngredient9, strIngredient10: String
