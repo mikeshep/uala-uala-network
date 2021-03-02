@@ -3,6 +3,8 @@ import RxSwift
 
 public struct UalaNetwork {
     
+    public init() {}
+    
     private let provider = MealDBProvider()
     
     public func search(by string: String) -> Single<MealResponse> {
